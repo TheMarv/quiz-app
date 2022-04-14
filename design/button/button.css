@@ -1,0 +1,14 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  background-color: rgba(200, 200, 200, 0.7);
+  border-radius: 5px;
+  padding: 0.3rem 0.6rem;
+}
+
+.btn--show {
+  background-color: rgba(255, 99, 71, 0.7);
+  width: 50%;
+  min-width: 7rem;
+  align-self: center;
+}
