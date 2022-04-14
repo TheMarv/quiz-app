@@ -9,8 +9,18 @@
 }
 
 .card__title,
-.card__question {
+.card__question,
+.card__answer {
   margin-top: 0;
+}
+
+.card__question,
+.card__answer {
+  height: 6rem;
+}
+
+.card__answer {
+  display: none;
 }
 
 .card__bookmark {
@@ -22,4 +32,12 @@
 
 .card.card--bookmarked .card__bookmark {
   color: red;
+}
+
+.card.card--show-answer .card__question {
+  display: none;
+}
+
+.card.card--show-answer .card__answer {
+  display: block;
 }
