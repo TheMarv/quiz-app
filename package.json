@@ -4,7 +4,13 @@
   "description": "a small quiz-app to show my skills in CSS, HTML and JS",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "htmlhint": "htmlhint",
+    "htmlhint:home": "htmlhint index.html",
+    "htmlhint:bookmark": "htmlhint bookmarks/index.html",
+    "htmlhint:create": "htmlhint create/index.html",
+    "htmlhint:user": "htmlhint user/index.html",
+    "htmlhint:design": "htmlhint design",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
