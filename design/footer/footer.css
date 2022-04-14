@@ -1,0 +1,25 @@
+.nav {
+  position: fixed;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 2rem;
+}
+
+.nav--link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.nav--link.active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav--link svg {
+  height: auto;
+  width: 2rem;
+}
