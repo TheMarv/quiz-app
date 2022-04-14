@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TheMarv/quiz-app/issues"
   },
-  "homepage": "https://github.com/TheMarv/quiz-app#readme"
+  "homepage": "https://github.com/TheMarv/quiz-app#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
 }
