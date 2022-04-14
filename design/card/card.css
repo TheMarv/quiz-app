@@ -8,18 +8,9 @@
   position: relative;
 }
 
-.card__title {
-  margin-top: 0;
-}
-
+.card__title,
 .card__question {
   margin-top: 0;
-}
-
-.card__tags {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 0.75rem;
 }
 
 .card__bookmark {
