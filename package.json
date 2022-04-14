@@ -1,0 +1,19 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "a small quiz-app to show my skills in CSS, HTML and JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMarv/quiz-app.git"
+  },
+  "author": "Marvin Steckel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheMarv/quiz-app/issues"
+  },
+  "homepage": "https://github.com/TheMarv/quiz-app#readme"
+}
