@@ -1,0 +1,14 @@
+.tags {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tags__tag {
+  border-radius: 1rem;
+  background-color: aqua;
+  padding: 0 0.75rem;
+}
+
+.tags__tag--card {
+  background-color: orangered;
+}
