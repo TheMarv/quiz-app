@@ -1,0 +1,16 @@
+h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.header--main {
+  background-color: rgba(50, 50, 50, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
