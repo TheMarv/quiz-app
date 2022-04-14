@@ -4,7 +4,7 @@
   "description": "a small quiz-app to show my skills in CSS, HTML and JS",
   "main": "index.html",
   "scripts": {
-    "htmlhint": "htmlhint",
+    "htmlhint": "htmlhint \"**/*.html\"",
     "htmlhint:home": "htmlhint index.html",
     "htmlhint:bookmark": "htmlhint bookmarks/index.html",
     "htmlhint:create": "htmlhint create/index.html",
