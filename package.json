@@ -5,12 +5,11 @@
   "main": "index.html",
   "scripts": {
     "htmlhint": "htmlhint \"**/*.html\"",
-    "htmlhint:home": "htmlhint index.html",
-    "htmlhint:bookmark": "htmlhint bookmarks/index.html",
-    "htmlhint:create": "htmlhint create/index.html",
-    "htmlhint:user": "htmlhint user/index.html",
-    "htmlhint:design": "htmlhint design",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "prettier": "prettier *.js",
+    "stylelint": "stylelint **/*.css",
+    "eslint": "eslint *.js",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,12 @@
   },
   "homepage": "https://github.com/TheMarv/quiz-app#readme",
   "devDependencies": {
-    "htmlhint": "^1.1.4"
+    "eslint": "^8.13.0",
+    "htmlhint": "^1.1.4",
+    "prettier": "2.6.2",
+    "stylelint": "^14.6.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
+    "husky": "^7.0.0"
   }
 }
