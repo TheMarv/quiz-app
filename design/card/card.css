@@ -1,0 +1,34 @@
+.card {
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card__title {
+  margin-top: 0;
+}
+
+.card__question {
+  margin-top: 0;
+}
+
+.card__tags {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.75rem;
+}
+
+.card__bookmark {
+  height: 2rem;
+  position: absolute;
+  top: -0.25rem;
+  right: 10%;
+}
+
+.card.card--bookmarked .card__bookmark {
+  color: red;
+}
