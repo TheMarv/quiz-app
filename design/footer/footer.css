@@ -1,11 +1,12 @@
 .nav {
   position: fixed;
-  bottom: 1rem;
+  bottom: 0;
   left: 0;
   right: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 2rem;
+  height: 2.5rem;
+  background-color: lightgray;
 }
 
 .nav--link {
@@ -13,13 +14,14 @@
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  align-items: center;
 }
 
 .nav--link.active {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .nav--link svg {
-  height: auto;
+  height: 2rem;
   width: 2rem;
 }
