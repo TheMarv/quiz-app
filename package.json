@@ -8,7 +8,7 @@
     "prettier": "prettier *.js",
     "stylelint": "stylelint **/*.css",
     "eslint": "eslint *.js",
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "npm run htmlhint && npm run stylelint && npm run eslint",
     "prepare": "husky install"
   },
   "repository": {
