@@ -4,13 +4,13 @@
   "description": "a small quiz-app to show my skills in CSS, HTML and JS",
   "main": "index.html",
   "scripts": {
-    "htmlhint": "htmlhint \"**/*.html\"",
-    "prettier": "prettier *.js",
-    "stylelint": "stylelint **/*.css",
-    "eslint": "eslint *.js",
-    "test": "npm run htmlhint && npm run stylelint && npm run eslint",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "htmlhint": "htmlhint \"**/*.html\"",
+    "eslint": "eslint \"**/*.js\"",
+    "stylelint": "stylelint \"**/*.css\"",
+    "prettier": "prettier --write",
+    "test": "npm run htmllint && npm run stylellint && npm run eslint"
   },
   "repository": {
     "type": "git",
