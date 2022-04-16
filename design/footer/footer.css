@@ -9,7 +9,7 @@
   background-color: lightgray;
 }
 
-.nav--link {
+.nav__link {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -17,11 +17,11 @@
   align-items: center;
 }
 
-.nav--link.active {
+.nav__link.nav__link--active {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.nav--link svg {
+.nav__link svg {
   height: 2rem;
   width: 2rem;
 }
